@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center"> NextBot  -  Landing Page</h1>
 
-## Getting Started
+![NextBot Landing Page Banner](banner.gif)
 
-First, run the development server:
+A visually engaging landing page built with **Next.js**, **Three.js**, and **Spline**. This project demonstrates modern web design, interactive 3D elements, and seamless user experience.
+
+---
+
+## 🚀 Tech Stack
+
+- **Next.js** – React framework for server-side rendering and static site generation.
+- **Three.js** – Powerful 3D graphics library for the web.
+- **Spline** – Collaborative 3D design tool for interactive scenes.
+- **Styled Components** – CSS-in-JS for modular, maintainable styles.
+- **Vercel** – Deployment and hosting.
+
+---
+
+## ✨ Features
+
+- **Interactive 3D Hero Section:** Eye-catching visuals powered by Three.js and Spline.
+- **Responsive Design:** Looks great on all devices.
+- **Lightning Fast:** Optimized for performance with Next.js.
+- **SEO Friendly:** Pre-rendered pages for better search engine visibility.
+- **Easy Customization:** Modular components and clear structure.
+
+---
+
+## 🖼️ Preview
+
+![Landing Page Preview](./assets/nextbot-preview.png)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/nextbot-landing.git
+cd nextbot-landing
+npm install
+```
+
+---
+
+## 🛠️ Usage
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Visit [http://localhost:3000](http://localhost:3000) to view the landing page.
+
+---
+
+## 🧩 Project Structure
+
+```
+nextbot-landing/
+├── components/      # Reusable React components
+├── pages/           # Next.js pages
+├── public/          # Static assets (images, 3D files)
+├── styles/          # Global and component styles
+├── utils/           # Utility functions
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **3D Models:** Edit or replace Spline scenes in `/public/3d/`.
+- **Branding:** Update colors, fonts, and images in `/styles/` and `/public/assets/`.
+- **Content:** Modify text and sections in `/pages/index.js`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Three.js Documentation](https://threejs.org/docs/)
+- [Spline Docs](https://docs.spline.design/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please open issues or submit pull requests for improvements.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> **Crafted with creativity and code.**
