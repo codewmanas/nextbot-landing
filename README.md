@@ -26,16 +26,10 @@ A visually engaging landing page built with **Next.js**, **Three.js**, and **Spl
 
 ---
 
-## 🖼️ Preview
-
-![Landing Page Preview](./assets/nextbot-preview.png)
-
----
-
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/nextbot-landing.git
+git clone https://github.com/codewmanas/nextbot-landing.git
 cd nextbot-landing
 npm install
 ```
